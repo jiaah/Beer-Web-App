@@ -1,13 +1,13 @@
 # Beer-Web-App
 
 ### Table of Contents
-- Project
-- API
-- Getting Started
-    - Installing
-    - Running the tests
-- Folder structure
-- Features
+- [Project](#project)
+- [API](#api)
+- [Getting Started](#getting-started)
+   - [Installing](#installing)
+   - [Running the test](#running-the-test)
+- [Folder Structure](#folder-structure)
+- [Features](#featureS)
 
 ### Project
 E-commerce Web Site for Beer Lovers!! You can search beers with an abv(Alcohol by volume) of more than 4% and find beer that pairs with food. It will help users to choose right beers that suit for their personal taste and the menu of the day.
@@ -22,10 +22,10 @@ The [Punk API](https://punkapi.com/documentation/v2) takes Brewdog's DIY Dog (A 
 ### Getting Started
 ##### Installing
 `npm install`
-##### Running the tests
+##### Running the test
 `npm start`
 
-### Folder structure
+### Folder Structure
 ```
 beerLover/
     static/                        
