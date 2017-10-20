@@ -1,6 +1,6 @@
 # Beer-Web-App
 
-### Table of Contents
+## Table of Contents
 - [Project](#project)
 - [API](#api)
 - [Getting Started](#getting-started)
@@ -9,23 +9,23 @@
 - [Folder Structure](#folder-structure)
 - [Features](#featureS)
 
-### Project
+## Project
 E-commerce Web Site for Beer Lovers!! You can search beers with an abv(Alcohol by volume) of more than 4% and find beer that pairs with food. It will help users to choose right beers that suit for their personal taste and the menu of the day.
 
-### API
+## API
 The [Punk API](https://punkapi.com/documentation/v2) takes Brewdog's DIY Dog (A craft beer company from Scotland) and turns it into a searchable, filterable API that's completely free and open source.
 
 
-### Technologies
+## Technologies
 ** React, JSX, Ajax, Material-UI, CSS **
 
-### Getting Started
-##### Installing
+## Getting Started
+#### Installing
 `npm install`
-##### Running the test
+#### Running the test
 `npm start`
 
-### Folder Structure
+## Folder Structure
 ```
 beerLover/
     static/                        
@@ -59,19 +59,19 @@ beerLover/
      package.json
      .gitignore
 ```
-### Features
+## Features
 
 ![Imgur](https://i.imgur.com/jsGV4sb.png)
 
 ![Imgur](https://i.imgur.com/KcwF3lX.png)
 
-##### LogIn/ SignUp 
+### LogIn/ SignUp 
 `Api POST request`
 
-##### List of beers in Home.js
+### List of beers in Home.js
 `Api GET request -> data.map -> pass data to <beercard.js>`
 
-##### List of beers Sorted by abv > 4% or abv < 4%
+### List of beers Sorted by abv > 4% or abv < 4%
 ```
 Api GET request
 .then(data => {
@@ -82,18 +82,18 @@ Api GET request
 strongBeers.map -> pass data to <beercard.js> -> List of beer (> 4%)
 ```
 
-##### Search beer bar by beer name or food
+### Search beer bar by beer name or food
 Search Text input ->
 `Api GET request(query) -> data.map -> pass data to <beercard.js>`
 
-##### Add to Favorite/Shopping cart Page
+### Add to Favorite/Shopping cart Page
 ```
 Api PATCH request 
 default value  0: false
                1: true
 ```
 
-##### Shopping Cart 
+### Shopping Cart 
 Check box :
 ```
 default value  0: false
