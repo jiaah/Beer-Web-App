@@ -94,19 +94,16 @@ default value  0: false
 ```
 
 ### Shopping Cart 
-Check box :
-```
-default value  0: false
-Button Click -> Api PATCH request -> 1: true
-Button Click -> Api PATCH request -> 0: false
-```
-
 Quantity :
 ```
 default value  1
 Button Click -> Api PATCH request -> Get new QYT & Price & Total Price from server 
 ```
 
+Delete :
+```
+Api DELETE request 
+```
 
 
 
