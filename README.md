@@ -17,7 +17,7 @@ The [Punk API](https://punkapi.com/documentation/v2) takes Brewdog's DIY Dog (A 
 
 
 ## Technologies
-** React, JSX, Ajax, Material-UI, CSS **
+** React v16.0, JSX, Ajax, SCSS **
 
 ## Getting Started
 #### Installing
