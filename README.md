@@ -3,10 +3,6 @@
 ## Table of Contents
 - [Project](#project)
 - [API](#api)
-- [Getting Started](#getting-started)
-   - [Installing](#installing)
-   - [Running the test](#running-the-test)
-- [Folder Structure](#folder-structure)
 - [Features](#featureS)
 
 ## Project
@@ -17,48 +13,8 @@ The [Punk API](https://punkapi.com/documentation/v2) takes Brewdog's DIY Dog (A 
 
 
 ## Technologies
-** React v16.0, JSX, Ajax, Redux, Redux-Saga, SCSS **
+Next.js, TypeScript, Styled-Components, Grommet, Storybook
 
-## Getting Started
-#### Installing
-`npm install`
-#### Running the test
-`npm start`
-
-## Folder Structure
-```
-beerLover/
-    static/                        
-        Index.html          # Main browser entry point
-        favicon.ico
-    src/
-        components/
-            app.js
-            elements/    
-                beerCard.js
-                FavoritButton.js
-                shoppingcartButton.js
-                strongBeerButton.js
-            modals/
-            pages/     
-                home.js    
-                login.js
-                signup.js
-                favoritePage.js
-                shoppingcartPage.js
-                notFoundPage.js
-        api.js                       # Superagent file
-        auth.js
-        config.js                    
-        index.js                     # Main entry point
-        
-        style/
-            index.css/scss                
-     README.md
-     node_modules
-     package.json
-     .gitignore
-```
 ## Features
 
 ![Imgur](https://i.imgur.com/jsGV4sb.png)
