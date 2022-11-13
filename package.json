@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Jin827/Beer-Web-App#readme",
   "dependencies": {
-    "next": "^10.0.7",
+    "next": "^13.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
